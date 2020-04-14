@@ -22,6 +22,7 @@ ANTIGEN_SYSTEM_UPDATE_DAYS="{{ zsh_update_interval }}"
 
 {% if zsh_mc_solarized_skin %}export MC_SKIN="$HOME/.mc/lib/mc-solarized/solarized.ini"{% endif %}
 
+POWERLEVEL9K_MODE='nerdfont-complete'
 source "{{ zsh_antigen_path_compat }}/antigen/antigen.zsh"
 
 antigen use oh-my-zsh
